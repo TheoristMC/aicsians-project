@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AICSians</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <form class="search-container">
+      <label for="search">Search ID:</label>
+      <input
+        type="text"
+        id="search"
+        name="search"
+        inputmode="numeric"
+        pattern="[0-9]*"
+        maxlength="6"
+        placeholder="Enter a student ID here..."
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- STUDENT INFORMATION HERE... -->
+    <div class="side-container">
+      <div class="qr-container"></div>
+      <h1 id="student-name">Jurren Impas</h1>
+      <div class="student-info">
+        <div class="student-info-item">
+          <p>Full Name</p>
+          <p id="student-full-name">Jurren T. Impas</p>
+        </div>
+        <div class="student-info-item">
+          <p>Student ID</p>
+          <p id="student-id">261094</p>
+        </div>
+        <div class="student-info-item">
+          <p>Learner's Reference Number</p>
+          <p id="student-lrn">136555150192</p>
+        </div>
+        <div class="student-info-item">
+          <p>Phone Number</p>
+          <p id="student-tel">09928356038</p>
+        </div>
+        <div class="student-info-item">
+          <p>Guardian's Full Name</p>
+          <p id="student-tel">Karen T. Impas</p>
+        </div>
+        <div class="student-info-item">
+          <p>Guardian's Phone Number</p>
+          <p id="student-tel">09103833094</p>
+        </div>
+        <div class="student-info-item">
+          <p>Home Address</p>
+          <p id="student-tel">Block 2 Lot 7 SAMAKA HOA Kaligtasan Ext. Brgy. Holy Spirit, Quezon City</p>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
