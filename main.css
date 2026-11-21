@@ -1,4 +1,0 @@
-/* Flips the camera the right way. */
-#qr-reader > video {
-  transform: scaleX(-1) !important;
-}
